@@ -12,7 +12,6 @@ const SearchInput = ({ onSearch }: Props) => {
     event.preventDefault();
     if (ref.current) {
       onSearch(ref.current.value);
-      console.log(ref.current.value);
     }
   };
 
